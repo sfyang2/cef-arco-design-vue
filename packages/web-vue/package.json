@@ -105,5 +105,9 @@
     "tags": "json/vetur-tags.json",
     "attributes": "json/vetur-attributes.json"
   },
-  "web-types": "json/web-types.json"
+  "web-types": "json/web-types.json",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

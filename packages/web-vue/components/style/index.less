@@ -4,8 +4,45 @@
 @import './theme/index.less';
 @import './theme/css-variables.less';
 
-body {
-  font-size: @font-size-body;
-  font-family: @font-family;
+// body {
+//   font-size: @font-size-body;
+//   font-family: @font-family;
+// }
+.lq-lq-cef-root header {
+  background: #fff !important;
+}
 
+.lq-lq-cef-root h1,
+.lq-lq-cef-root h2,
+.lq-lq-cef-root h3,
+.lq-lq-cef-root h4,
+.lq-lq-cef-root h5,
+.lq-lq-cef-root h6,
+.lq-lq-cef-root button,
+.lq-lq-cef-root p,
+.lq-lq-cef-root a,
+.lq-lq-cef-root span,
+.lq-lq-cef-root textarea,
+.lq-lq-cef-root div {
+  font-family: @font-family;
+}
+
+.lq-lq-cef-root button,
+.lq-lq-cef-root p,
+.lq-lq-cef-root a,
+.lq-lq-cef-root span,
+.lq-lq-cef-root textarea,
+.lq-lq-cef-root li,
+.lq-lq-cef-root div {
+  font-size: 13px !important;
+}
+
+.lq-lq-cef-root span {
+  font-weight: normal;
+}
+
+//重置placeholder的大小
+.lq-lq-cef-root input::-webkit-input-placeholder {
+  font-weight: normal !important;
+  font-size: 12px !important;
 }

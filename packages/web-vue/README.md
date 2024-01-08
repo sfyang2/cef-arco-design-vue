@@ -111,3 +111,8 @@ Thank you to all the people who already contributed to ArcoDesign!
 # License
 
 Ths project is [MIT licensed](./LICENSE).
+
+
+# 发布到npm
+1. 修改web-vue/package.json里的name为 musksy-cef-web-vue
+2. npm publish
